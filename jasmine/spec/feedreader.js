@@ -60,7 +60,6 @@ $(function() {
     describe('New Feed Selection', function() {
         beforeEach(function (done) {
             const feed = $('.feed');
-            feed.empty();
             loadFeed(0, function () {
                 first_entries = feed.find(allFeeds.url);
             });
