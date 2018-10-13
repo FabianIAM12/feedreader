@@ -1,7 +1,7 @@
 # Project Overview
 
-This is a example project of how i used Jasemine tests in my web application.
-It demonstrates sync and async tests.
+This is a example project of how i used Jasemine tests a web application.
+It demonstrates synchronous and asynchronous tests.
 
 ## Why testing?
 
@@ -11,3 +11,7 @@ It demonstrates sync and async tests.
 ## How to use
 
 Copy the Repository and start the index.html.
+
+## Where do i find the written tests?
+
+Go to the jasmine/spec/feedreader.js file.
