@@ -58,7 +58,7 @@ $(function() {
             });
         });
 
-        it('initial load feed works', function (done) {
+        it('initial entry checker', function (done) {
             expect(entry_element).toBeDefined();
             done();
         });
@@ -67,7 +67,6 @@ $(function() {
     describe('New Feed Selection', function() {
         beforeEach(function (done) {
             let feed = $('.feed');
-
             feed.empty();
 
             loadFeed(0, function () {
